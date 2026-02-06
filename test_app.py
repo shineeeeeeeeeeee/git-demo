@@ -17,9 +17,9 @@ def testMul():
   print("Mul tests passed")
 
 def testDiv():
-  assert div(10, 2) == 5
-  assert div(5, 0) == "Cannot divide by zero."
-  assert div(0, 5) == 0
+  assert divide(10, 2) == 5
+  assert divide(5, 0) == "Cannot divide by zero."
+  assert divide(0, 5) == 0
   print("Div tests passed")
 
 if __name__ == "__main__":
