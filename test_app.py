@@ -12,8 +12,8 @@ def testSub():
   print("Sub tests passed")
 
 def testMul():
-  assert sub(5, 2) == 10
-  assert sub(10, 10) == 100
+  assert mul(5, 2) == 10
+  assert mul(10, 10) == 100
   print("Mul tests passed")
 
 def testDiv():
